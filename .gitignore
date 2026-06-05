@@ -1,0 +1,21 @@
+# Build
+build/
+build-*/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+
+# Qt Creator
+.qtcreator/
+*.pro.user*
+*.qbs.user*
+CMakeLists.txt.user*
+*.autosave
+
+# Generated
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
